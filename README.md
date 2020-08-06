@@ -6,6 +6,10 @@ This project is to showcase how to work with HttpClient in Flutter.
   <img src="rest_thumbnail.png" alt="flutter httpclient REST API" title="Screenshot">
 </p>
 
+News API: http://newsapi.org/v2/everything?domains=wsj.com&apiKey=YOUR_API_KEY
+
+
+
 If you like my work, support me to create more!<br>
 <a href="https://www.buymeacoffee.com/afzalali15" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
