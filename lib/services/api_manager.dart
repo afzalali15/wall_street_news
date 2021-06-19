@@ -1,8 +1,9 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:news_demo_livestream/constants/strings.dart';
-import 'package:news_demo_livestream/models/newsInfo.dart';
+
+import '../constants/strings.dart';
+import '../models/newsInfo.dart';
 
 // ignore: camel_case_types
 class API_Manager {
@@ -11,7 +12,7 @@ class API_Manager {
     var newsModel;
 
     try {
-      var response = await client.get(Strings.news_url);
+      var response = await client.get(Uri.parse(Strings.news_url));
       if (response.statusCode == 200) {
         var jsonString = response.body;
         var jsonMap = json.decode(jsonString);
