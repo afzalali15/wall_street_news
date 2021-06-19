@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_demo_livestream/pages/homepage.dart';
+
+import './pages/homepage.dart';
 
 void main() {
   runApp(MyApp());
